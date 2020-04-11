@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<title>TiMP</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+
+    * {
+        box-sizing: border-box
+    }
+
+    body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    /* Comment Section Style Code*/
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .flex-1 {
+        flex: 1;
+    }
+
+    .items-start {
+        align-items: start;
+    }
+
+    .justify-start {
+        justify-content: flex-start;
+    }
+
+    .timptext {
+        text-align: justify;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    li {
+        font-weight: bold;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .decoration {
+        text-decoration: none !important;
+    }
+
+    .comment-container {
+        /* border-radius: 8px; */
+        border: 1px solid #e2e2e2;
+        margin: 3rem auto;
+        max-width: 600px;
+        min-height: 200px;
+    }
+
+    .comment-container-title {
+        background: #f8f8f8;
+        border-bottom: 1px solid #ebebeb;
+        /* border-top-left-radius: 8px;
+        border-top-right-radius: 8px; */
+        color: #2d3748;
+        margin-top: 0;
+        padding: 1rem 2rem;
+    }
+
+    .comment {
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+    }
+
+    .comment-new {
+        border-top: 1px solid #ebebeb;
+        margin: 1rem 0;
+        padding-top: 2rem;
+    }
+
+    .comment-avatar {
+        color: black;
+        background-color: black;
+        border-radius: 50%;
+        height: 48px;
+        margin-right: 1rem;
+        width: 48px;
+    }
+
+    .comment-author {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+    }
+
+    .comment-body {
+        color: #4a5568;
+        line-height: 1.4;
+        margin: 0;
+        padding-right: 1rem;
+    }
+
+    .comment-input {
+        border-radius: 8px;
+        border: 1px solid #dddd;
+        box-sizing: border-box;
+        color: #4a5568;
+        font-size: 1rem;
+        line-height: 1.4;
+        padding: 0.8rem;
+        width: 100%;
+    }
+
+    .comment-input:focus {
+        border-color: #5c6ac4;
+        outline: none;
+    }
+
+    .author-input {
+        border-radius: 8px;
+        border: 1px solid #dddd;
+        box-sizing: border-box;
+        color: #4a5568;
+        font-size: 1rem;
+        line-height: 1.4;
+        padding: 0.8rem;
+        width: 100%;
+    }
+
+    .author-input:focus {
+        border-color: #5c6ac4;
+        outline: none;
+    }
+
+    .comment-submit {
+        background: #5c6ac4;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+        letter-spacing: 0.05rem;
+        margin-top: 0.5rem;
+        padding: 10px 16px;
+        text-transform: uppercase;
+    }
+
+    .comment-submit:hover,
+    .comment-submit:focus {
+        filter: brightness(110%);
+    }
+
+    /* End of Comment Style Code*/
+
+    /* key frames style code*/
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+        .prev,
+        .next,
+        .text {
+            font-size: 11px
+        }
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+                title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="./assets/timplogo-01.png" style="width:45%;"><br><br>
+            <h4><b>WELCOME</b></h4>
+        </div>
+        <div class="w3-bar-block">
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                    class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <!-- (input the title of today's Timp) -->
+                <h1><b>Part 2: Recognizing the Lion is not King</b></h1>
+                <div class="w3-section w3-bottombar"></div>
+            </div>
+        </header>
+
+        <!-- Timp Text Section (input your lesson here pops)-->
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <!-- (input today's date) -->
+            <h4><b>April 10, 2020</b></h4>
+            <!-- (input today's lesson) -->
+            <div class="timptext">
+                <p>Hopefully you read and studied Daniel chapters 1 and 2 with a new found set of eyes. If so, you
+                    noticed Daniel, his friends as well as the other captives had to meet certain criteria to serve in
+                    the palace of king Nebuchadnezzar. They had to be good looking no scars or physical abnormalities,
+                    fit and young. This meant that most including Daniel were roughly between the ages of 14-17 by most
+                    estimates. They then received 3 years of Babylonian training to serve the king. Now, Daniel and his
+                    friends were considered the best and brightest and were between the ages of 17-20 when they began
+                    their official service to the king’s palace. We also learn of the king’s cultural brainwashing by
+                    changing the names of those he takes captive. Let’s take a look at what’s in a name, both their
+                    original God given names and what it was changed to in Babylonian. For the sake of our study we will
+                    only put a bit more additional breakdown around Daniel but will provide the meaning of others for
+                    reference and context. Also, take note on how their God given names will play a major role in how
+                    they navigate their circumstances. </p>
+
+
+                <p><i>God given name -vs- Changed name under Babylonian captivity:</i></p>
+                <a style="font-weight: normal !important;">
+
+                    <p><span class="bold">Daniel<span>who was from King David’s royal family) means <span
+                                    class="bold">“God is my judge”.<span>
+                                        In native Hebrew
+                                        the name would be spelled Daniyel: <i>Dan = judge, i = my, el = God.</i>
+                                        You may notice or heard of <i>el</i> before which comes from <i>Elohim</i> which
+                                        is God in Hebrew. In
+                                        Latin
+                                        <i>el</i> is a masculine singular pronoun for He, The/Thee.
+                                        Daniel’s name is changed to <span class="bold">Belteshazzar<span> which means
+                                                <span class="bold">“Bel Protect the king” (Bel = pagan
+                                                    god).<span></p>
+
+
+                    <p><span class="bold">Hananiah<span> means <span class="bold">“The Lord is Gracious”<span> changed
+                                        to: <span class="bold">Shadrach<span> which means <span class="bold">“Command of
+                                                    Aku”<span> the
+                                                        name Aku is Babylonian for “moon god”.</p>
+
+
+                    <p><span class="bold">Mishael<span> means <span class="bold">“Who is like the Lord”<span> changed
+                                        to: <span class="bold">Meshach<span> which means <span class="bold">“Who is what
+                                                    Aku Is”<span>
+                                                        again Aku is “moon god”.</p>
+
+                    <p><span class="bold">Azariah<span> means <span class="bold">“The Lord is my Helper”<span> changed
+                                        to: <span class="bold">Abed-nego<span> which means <span class="bold">“Servant
+                                                    of Nego”<span> the
+                                                        name Nego or Nebo/Nabu is Babylonian for “vegetation god” and
+                                                        patron of the art of writing.</p>
+
+                    <p>Lastly, for your reference Babylonian king <span class="bold">Nebuchadnezzar<span> name means,
+                                <span class="bold">“Nebo protect your servant”.<span></p>
+
+
+                    <p>Now let’s learn the significance of chapters 1 and 2. At this point Daniel and his friends are
+                        well
+                        on their way to standing up for God whom they serve. For very young men, they have shown great
+                        strength, faith and God has also given them favor in the king’s kingdom. We also learn
+                        Nebuchadnezzar has his first of 2 dreams. God has gifted Daniel with supernatural ability to
+                        interpret dreams. Why? Well this is where the fun starts, so to speak. In chapter <span
+                            class="bold">2:20-23<span> we get
+                                a peek into what the book of Daniel is all about. The night prior to going before the
+                                king he
+                                has
+                                a vision (dream) and the secrets of the king’s 1st dream is revealed. The bible then
+                                says,
+                                Daniel
+                                praises God and it’s in this praise we see that God is in control of all things and
+                                every king
+                                (leader) or kingdom (nation) is subject His authority. This is obviously in contrast to
+                                what
+                                most in power or authority think even in the world today.</p>
+
+                    <p>Furthermore, in chapter <span class="bold">2:39-45<span> as Daniel is explaining the king’s 1st
+                                dream. He speaks of 5
+                                kingdoms which will come and go but the last kingdom to come will be eternal. In verse
+                                45 we see
+                                the word
+                                “stone” this is reference to the Messiah. In the same verse “cut out of the mountain
+                                without
+                                hands” is reference to the Messiah’s origin being from God and not man. Now let’s relate
+                                this to
+                                the
+                                new testament so that is makes sense. <span class="bold">Luke 20:17-18<span> “the stone
+                                        that the builders rejected……”.
+                                        Remember, Jerusalem as well as some today rejected and still reject Jesus as the
+                                        Messiah
+                                        (Savior). The
+                                        Bible however clearly tells us that the origin of Jesus was with God the Father
+                                        from the very
+                                        beginning, <span class="bold">John 1:1<span> “In the beginning was the Word….”.
+                                                In as much as it is clear that Jesus was
+                                                sent by God
+                                                and not man <span class="bold">(John 3:16, John 17:3, Colossians
+                                                    1:15-17)<span>. So not only is Daniel revealing to
+                                                        Nebuchadnezzar the demise of his empire and those to come. He is
+                                                        testifying to the ultimate
+                                                        everlasting sovereign throne of the King of all Kings Jesus!</p>
+                    <br>
+                    <span class="bold">Read Chapters 3-4</span>As we begin this week’s read, it gets much hotter and
+                    Daniel deals with Nebuchadnezzar 2nd dream.</p>
+            </div>
+            <!-- From Greg’s TiMP Garden:
+                Our world today is all about being hurry. From ordering online, daily travel to something as simple as
+                saying hello. The act patience has become a relic of stories told in ancient times. It's ironic God tells us
+                that being patient benefits us greatly. However, he never mentions being in a hurry producing any
+                lasting
+                effective outcome. Proverbs 14:29 -->
+            <hr>
+
+            <!-- <div class="comment-container">
+                <h3 class="comment-container-title">Comments</h3>
+                <div class="comments">
+                    <div class="comment flex items-start justify-start">
+                        <img class="comment-avatar"
+                            src="./assets/commentavatar.jpg" />
+                        <div class="flex-1">
+                            <h3 class="comment-author">Greg Burris</h3>
+                            <p class="comment-body">Thank you for reading today's lesson, leave a comment below with your thoughts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment comment-new flex items-start justify-start">
+                    <img class="comment-avatar"
+                        src="./assets/commentavatar.jpg" />
+                    <div class="flex-1">
+                        <form action="#" class="comment-form">
+                            <textarea placeholder="Add a name" class="author-input"></textarea>
+                            <textarea placeholder="Add a comment" class="comment-input"></textarea>
+                            <input type="submit" class="comment-submit" value="Reply" />
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Footer -->
+            <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+                <a href="#portfolio" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+                    the
+                    top</a>
+                <div class="w3-xlarge w3-section">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+                </div>
+                <p>&copy; 2017 TiMP Ministries. All Rights Reserved.
+                    <br>
+                    &#8482; TiMP is a registered trademark.
+                    <br>
+                    Any and all use of the TiMP name and logo without consent is strictly prohibited.
+                </p>
+            </footer>
+            <br>
+            <br>
+            <div class="flex">
+                <img src="./assets/timplogo-01.png" style="width:30%;">
+            </div>
+            <!-- End page content -->
+
+        </div>
+
+        <script src="app.js"></script>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+</body>
+
+</html>
