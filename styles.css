@@ -1,6 +1,13 @@
 #appView {
     position: relative;
-    margin: 10px !important;
+    margin: auto !important;
+}
+
+.flex-comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 body,
