@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TiMPS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+                title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="./assets/timplogo-01.png" style="width:45%;"><br><br>
+            <h4><b>WELCOME</b></h4>
+        </div>
+        <div class="w3-bar-block">
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
+            <!-- Nightime mode button for late night reading  -->
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <em>Enable Night View</em>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                    class="fa fa-bars"></i>
+                <div style="font-size: small;">Menu</div>
+            </span>
+            <div class="w3-container">
+                <!-- (input the title of today's Timp) -->
+                <h1><b>Knowledge is Growth</b></h1>
+                <div class="w3-section w3-bottombar"></div>
+            </div>
+        </header>
+
+        <!-- Timp Text Section (input your lesson here pops)-->
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <!-- (input today's date) -->
+            <h4><b>July 12, 2020</b></h4>
+            <!-- (input today's lesson) -->
+            <div class="timptext">
+                <p>As we continue these much needed teachings on the tough topic of racial issues and systemic
+                    injustices. We all must do our part to take action towards overcoming the cowardly voices of
+                    ignorance and hate. My hope is that around the world those voices of right and more importantly
+                    righteousness will ultimately prevail. If you have a platform, especially those of us in Christ and
+                    you
+                    are being silent on this issue. Then you are doing yourself and those you serve a disservice.</p>
+
+                <p>Even if you don’t understand how to approach the discussion then reach out to find someone who does.
+                    The world will never be perfect because we are all flawed imperfect people. However, that can never
+                    be nor should it be an excuse to not do better. At this time we should all be seeking wisdom and
+                    knowledge to grow beyond those flaws. For many many years, we right here in the US and other nations
+                    have been deceived in how we view or understand history. This has led to generational deception and
+                    divide. In the book of <span class="bold"></span>Hosea 4:6</span> God is dealing with His people
+                    Israel for
+                    their lack of knowledge.
+                    Now the knowledge that God is speaking to which also applies to us today is knowledge about Him. But
+                    it’s also a generality that not having knowledge is very detrimental</p>
+
+                <p>So with that, I would like to direct your attention this week to please take time and watch this
+                    insightful forum video presented by a man named Jeffrey Robinson. He is the Deputy Legal Director
+                    for the ACLU (American Civil Liberties Union). No matter your race or ethnicity please click on the
+                    link below and watch in its entirety with your household.
+
+                <p><span class="bold"><a href="https://youtu.be/QOPGpE-sXh0" class="link-color">Watch: Robinson (FULL
+                            Version)</a></span></p>
+
+                <p>Please note you can simply watch from your mobile phone or computer using the link above or if you
+                    have WiFi
+                    equipped
+                    TV you can show the video on your TV from your mobile device. Simply tap on the WiFi/TV icon <img
+                        src="./assets/youtube icon.jpeg" class="youtube-icon" style="width:2%;"> in the
+                    upper right on the YouTube video. If you have YouTube on your TV from the website search
+                    just type 'The Truth About the Confederacy in the United States' to watch.
+                </p>
+            </div>
+            <hr>
+
+            <!-- <div class="comment-container">
+                <h3 class="comment-container-title">Comments</h3>
+                <div class="comments">
+                    <div class="comment flex items-start justify-start">
+                        <img class="comment-avatar"
+                            src="./assets/commentavatar.jpg" />
+                        <div class="flex-1">
+                            <h3 class="comment-author">Greg Burris</h3>
+                            <p class="comment-body">Thank you for reading today's lesson, leave a comment below with your thoughts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment comment-new flex items-start justify-start">
+                    <img class="comment-avatar"
+                        src="./assets/commentavatar.jpg" />
+                    <div class="flex-1">
+                        <form action="#" class="comment-form">
+                            <textarea placeholder="Add a name" class="author-input"></textarea>
+                            <textarea placeholder="Add a comment" class="comment-input"></textarea>
+                            <input type="submit" class="comment-submit" value="Reply" />
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Footer -->
+            <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+                <a href="#portfolio" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+                    the
+                    top</a>
+                <div class="w3-xlarge w3-section">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+                </div>
+                <p class="copyright">&copy; 2017 TiMP Ministries. All Rights Reserved.
+                    <br>
+                    &#8482; TiMP is a registered trademark.
+                    <br>
+                    Any and all use of the TiMP name and logo without consent is strictly prohibited.
+                </p>
+            </footer>
+            <br>
+            <br>
+            <div class="flex-logo">
+                <img src="./assets/timplogo-01.png" style="width:30%;">
+            </div>
+            <!-- End page content -->
+
+        </div>
+
+        <script type="text/javascript" src="darkmode.js" charset="utf-8"></script>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+</body>
+
+</html>
