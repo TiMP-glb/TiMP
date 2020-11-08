@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TiMPS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+                title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="./assets/timplogo-01.png" style="width:45%;"><br><br>
+            <h4><b>WELCOME</b></h4>
+        </div>
+        <div class="w3-bar-block">
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
+            <!-- Nightime mode button for late night reading  -->
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <em>Enable Night View</em>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                    class="fa fa-bars"></i>
+                <div style="font-size: small;">Menu</div>
+            </span>
+            <div class="w3-container">
+                <!-- (input the title of today's Timp) -->
+                <h1><b>Washed Any Feet Lately</b></h1>
+                <div class="w3-section w3-bottombar"></div>
+            </div>
+        </header>
+
+        <!-- Timp Text Section (input your lesson here pops)-->
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <!-- (input today's date) -->
+            <h4><b>November 08, 2020</b></h4>
+            <!-- (input today's lesson) -->
+            <div class="timptext">
+
+                <p>Well TiMP Nation I had planned to begin our new short series but we will kick that off next week. God
+                    was speaking to my heart to provide a small bit of perspective to recent events in my country. As
+                    many of you know that are a part of TiMP nation around the world, America is in the throws of a
+                    contentious election which has caused much divisiveness, racism, bigotry, lying rhetoric and moral
+                    decay all for greed, power and privilege. Now, I in particular have no political loyalties my only
+                    preference is I would love to see a true man of God holding that position one day. Only God has the
+                    power and authority to place such a person if he so sees fit <span class="bold">Romans 13:1</span>.
+                    However, there comes a
+                    time when we must be honest about what is right in front of us.</p>
+
+                <p>A true fundamental of life is that some will be leaders and some will be followers. But we must be
+                    mindful how we lead or who we look to for leadership. Only fools lead with folly and only fools
+                    follow foolishness. Now with that said real leaders lead not with the conviction for themselves but
+                    with a humble heart and desire to serve others. We find this example of true leadership in Jesus
+                    Christ when He is washing His disciple’s feet <span class="bold">John 13:1-17</span>. In context and
+                    focusing on verse 5, it
+                    was just before the Passover Festival and Jesus was in His final hours on earth before returning
+                    back to glory to be with God the Father. So here is Jesus, in His last moments not that He hadn’t
+                    done enough already by giving His life, being buried and resurrecting all so that we’d have the
+                    opportunity for salvation. He decides to pour water in a basin and start washing and drying the
+                    filthy feet of His disciples! The reason for this was to show an example of selfless service and
+                    great love which was also shown by His death on the cross.</p>
+
+                <p>You see in this day and time and even now the act of washing feet is considered work for the lowest
+                    of servants and a very menial task. Even the disciples could not bring themselves to wash each
+                    other’s feet and were actually arguing over who was the greatest amongst them <span class="bold">Luke 22:24-27</span>. Which
+                    prompted Jesus in that moment to set the standard by which we are to live, lead and hold each other
+                    accountable too. He simply asked them who is greater, the one sitting at the table or the one
+                    serving it? Many are wondering what the soon to be former President is going to do in the aftermath
+                    and for that matter the newly elected President. My prayer and hope are that they repent if they
+                    have not done so already and turn from their wicked ways and seek to serve the Lord with all their
+                    heart, mind, body and soul. Because what profit is there for a man or woman to gain the whole world
+                    and lose their soul? <span class="bold">Mark 8:36, Matthew 16:26</span></p>
+
+            </div>
+            <hr>
+
+            <!-- <div class="comment-container">
+                <h3 class="comment-container-title">Comments</h3>
+                <div class="comments">
+                    <div class="comment flex items-start justify-start">
+                        <img class="comment-avatar"
+                            src="./assets/commentavatar.jpg" />
+                        <div class="flex-1">
+                            <h3 class="comment-author">Greg Burris</h3>
+                            <p class="comment-body">Thank you for reading today's lesson, leave a comment below with your thoughts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment comment-new flex items-start justify-start">
+                    <img class="comment-avatar"
+                        src="./assets/commentavatar.jpg" />
+                    <div class="flex-1">
+                        <form action="#" class="comment-form">
+                            <textarea placeholder="Add a name" class="author-input"></textarea>
+                            <textarea placeholder="Add a comment" class="comment-input"></textarea>
+                            <input type="submit" class="comment-submit" value="Reply" />
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Footer -->
+            <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+                <a href="#portfolio" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+                    the
+                    top</a>
+                <div class="w3-xlarge w3-section">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-snapchat w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+                </div>
+                <p class="copyright">&copy; 2017 TiMP Ministries. All Rights Reserved.
+                    <br>
+                    &#8482; TiMP is a registered trademark.
+                    <br>
+                    Any and all use of the TiMP name and logo without consent is strictly prohibited.
+                </p>
+            </footer>
+            <br>
+            <br>
+            <div class="flex-logo">
+                <img src="./assets/timplogo-01.png" style="width:30%;">
+            </div>
+            <!-- End page content -->
+
+        </div>
+
+        <script type="text/javascript" src="darkmode.js" charset="utf-8"></script>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+</body>
+
+</html>
