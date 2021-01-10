@@ -43,7 +43,7 @@ p {
 
 
 .link-color {
-    color: var(  --link-color) !important;
+    color: var(--link-color) !important;
 }
 
 .copyright {
@@ -440,6 +440,20 @@ input:checked+.slider:before {
 
     --link-color: red;
 
+}
+
+/*page structure source code*/
+
+.gb-container {
+    padding: 0.01em 16px;
+    padding-top: 0.01em;
+    padding-right: 16px;
+    padding-bottom: 0.01em;
+    padding-left: 16px;
+}
+
+.gb-center {
+    text-align: center !important;
 }
 
 /* key frames style code*/
