@@ -5,27 +5,27 @@
     <title>TiMPS</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="structure.css">
 </head>
 
-<body class="w3-content" style="max-width:1600px">
+<body class="gb-content" style="max-width:1600px">
 
     <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <nav class="gb-sidebar gb-collapse gb-white gb-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
         <div class="gb-container">
-            <a href="#" onclick="gb_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+            <a href="#" onclick="gb_close()" class="gb-hide-large gb-right gb-jumbo gb-padding gb-hover-grey"
                 title="close menu">
                 <i class="fa fa-remove"></i>
             </a>
             <img src="./assets/timplogo-01.png" style="width:45%;"><br><br>
             <h4><b>WELCOME</b></h4>
         </div>
-        <div class="w3-bar-block">
-            <a href="index.html" onclick="gb_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
+        <div class="gb-bar-block">
+            <a href="index.html" onclick="gb_close()" class="gb-bar-item gb-button gb-padding"><i
+                    class="fa fa-th-large fa-fw gb-margin-right"></i>HOME</a>
             <!-- Nightime mode button for late night reading  -->
             <div class="theme-switch-wrapper">
                 <label class="theme-switch" for="checkbox">
@@ -38,27 +38,27 @@
     </nav>
 
     <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="gb_close()" style="cursor:pointer"
+    <div class="gb-overlay gb-hide-large gb-animate-opacity" onclick="gb_close()" style="cursor:pointer"
         title="close side menu" id="myOverlay"></div>
 
     <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-left:300px">
+    <div class="gb-main" style="margin-left:300px">
 
         <!-- Header -->
         <header id="portfolio">
-            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+            <span class="gb-button gb-hide-large gb-xxlarge gb-hover-text-grey" onclick="gb_open()"><i
                     class="fa fa-bars"></i>
                 <div style="font-size: small;">Menu</div>
             </span>
             <div class="gb-container">
                 <!-- (input the title of today's Timp) -->
                 <h1><b>Washed Any Feet Lately</b></h1>
-                <div class="w3-section w3-bottombar"></div>
+                <div class="gb-section gb-bottombar"></div>
             </div>
         </header>
 
         <!-- Timp Text Section (input your lesson here pops)-->
-        <div class="gb-container w3-padding-large" style="margin-bottom:32px">
+        <div class="gb-container gb-padding-large" style="margin-bottom:32px">
             <!-- (input today's date) -->
             <h4><b>November 08, 2020</b></h4>
             <!-- (input today's lesson) -->
@@ -89,7 +89,8 @@
 
                 <p>You see in this day and time and even now the act of washing feet is considered work for the lowest
                     of servants and a very menial task. Even the disciples could not bring themselves to wash each
-                    other’s feet and were actually arguing over who was the greatest amongst them <span class="bold">Luke 22:24-27</span>. Which
+                    other’s feet and were actually arguing over who was the greatest amongst them <span
+                        class="bold">Luke 22:24-27</span>. Which
                     prompted Jesus in that moment to set the standard by which we are to live, lead and hold each other
                     accountable too. He simply asked them who is greater, the one sitting at the table or the one
                     serving it? Many are wondering what the soon to be former President is going to do in the aftermath
@@ -127,17 +128,17 @@
             </div> -->
 
             <!-- Footer -->
-            <footer class="gb-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-                <a href="#portfolio" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+            <footer class="gb-center gb-black gb-padding-64 gb-opacity gb-hover-opacity-off">
+                <a href="#portfolio" class="gb-button gb-light-grey"><i class="fa fa-arrow-up gb-margin-right"></i>To
                     the
                     top</a>
-                <div class="w3-xlarge w3-section">
-                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                    <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
-                    <i class="fa fa-snapchat w3-hover-opacity"></i>
-                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                    <i class="fa fa-twitter w3-hover-opacity"></i>
-                    <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+                <div class="gb-xlarge gb-section">
+                    <i class="fa fa-facebook-official gb-hover-opacity"></i>
+                    <!-- <i class="fa fa-instagram gb-hover-opacity"></i>
+                    <i class="fa fa-snapchat gb-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p gb-hover-opacity"></i>
+                    <i class="fa fa-twitter gb-hover-opacity"></i>
+                    <i class="fa fa-linkedin gb-hover-opacity"></i> -->
                 </div>
                 <p class="copyright">&copy; 2017 TiMP Ministries. All Rights Reserved.
                     <br>
@@ -159,7 +160,7 @@
 
         <script>
             // Script to open and close sidebar
-            function w3_open() {
+            function gb_open() {
                 document.getElementById("mySidebar").style.display = "block";
                 document.getElementById("myOverlay").style.display = "block";
             }

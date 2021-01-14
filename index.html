@@ -7,33 +7,33 @@
     <meta property="og:image" content="./assets/coverart-01.jpg" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="structure.css">
 </head>
 
-<body class="w3-content" style="max-width:1600px">
+<body class="gb-content" style="max-width:1600px">
 
     <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <nav class="gb-sidebar gb-collapse gb-white gb-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
         <div class="gb-container">
-            <a href="#" onclick="gb_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+            <a href="#" onclick="gb_close()" class="gb-hide-large gb-right gb-jumbo gb-padding gb-hover-grey"
                 title="close menu">
                 <i class="fa fa-remove"></i>
             </a>
             <img src="./assets/timplogo-01.png" style="width:45%;"><br><br>
             <h4><b>WELCOME</b></h4>
         </div>
-        <div class="w3-bar-block">
-            <a href="#timps" onclick="gb_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-th-large fa-fw w3-margin-right"></i>TiMP</a>
-            <a href="archive.html" onclick="gb_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa fa-archive fa-fw w3-margin-right"></i>ARCHIVE in progress</a>
-            <a href="#about" onclick="gb_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a>
-            <a href="#contact" onclick="gb_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        <div class="gb-bar-block">
+            <a href="#timps" onclick="gb_close()" class="gb-bar-item gb-button gb-padding"><i
+                    class="fa fa-th-large fa-fw gb-margin-right"></i>TiMP</a>
+            <a href="archive.html" onclick="gb_close()" class="gb-bar-item gb-button gb-padding"><i
+                    class="fa fa fa-archive fa-fw gb-margin-right"></i>ARCHIVE in progress</a>
+            <a href="#about" onclick="gb_close()" class="gb-bar-item gb-button gb-padding"><i
+                    class="fa fa-user fa-fw gb-margin-right"></i>ABOUT ME</a>
+            <a href="#contact" onclick="gb_close()" class="gb-bar-item gb-button gb-padding"><i
+                    class="fa fa-envelope fa-fw gb-margin-right"></i>CONTACT</a>
             <!-- Nightime mode button for late night reading  -->
             <div class="theme-switch-wrapper">
                 <label class="theme-switch" for="checkbox">
@@ -46,23 +46,23 @@
     </nav>
 
     <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="gb_close()" style="cursor:pointer"
+    <div class="gb-overlay gb-hide-large gb-animate-opacity" onclick="gb_close()" style="cursor:pointer"
         title="close side menu" id="myOverlay"></div>
 
     <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-left:300px">
+    <div class="gb-main" style="margin-left:300px">
 
         <!-- Header -->
         <header id="timps">
-            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+            <span class="gb-button gb-hide-large gb-xxlarge gb-hover-text-grey" onclick="gb_open()"><i
                     class="fa fa-bars"></i>
                 <div style="font-size: small;">Menu</div>
             </span>
             <div class="gb-container">
                 <h1><b>TiMP</b></h1>
-                <div class="w3-section w3-bottombar w3-padding-16">
-                    <header class="w3-display-container w3-content gb-center" style="max-width:1500px">
-                        <img class="w3-image" src="./assets/coverart-01.jpg" alt="Me" width="1500" height="600">
+                <div class="gb-section gb-bottombar gb-padding-16">
+                    <header class="gb-display-container gb-content gb-center" style="max-width:1500px">
+                        <img class="gb-image" src="./assets/coverart-01.jpg" alt="Me" width="1500" height="600">
                 </div>
             </div>
         </header>
@@ -72,30 +72,30 @@
             <!-- Page 1 of Timps -->
             <div class="mySlides fade">
                 <!-- <div class="numbertext">1 / 3</div> -->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <h6 style="text-align: center;">Page 1</h6>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/withhim-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/withhim-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"I’m With Him"</b></p>
                             <p class="timp-box">January 10, 2021</p>
                             <button class="button button2"><a href="page28.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/giftgift-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/giftgift-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"The Good News Gift"</b></p>
                             <p class="timp-box">December 27, 2020</p>
                             <button class="button button2"><a href="page27.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/PART23-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/PART23-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Maintaining Proper Insulation"</b></p>
                             <p class="timp-box">December 06, 2020</p>
                             <button class="button button2"><a href="page26.html">Read More</a></button>
@@ -105,30 +105,30 @@
                 </div>
 
                 <!-- Second Photo Grid-->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/redhouse-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/redhouse-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Maintaining Proper Insulation"</b></p>
                             <p class="timp-box">November 22, 2020</p>
                             <button class="button button2"><a href="page25.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/rgblate-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/rgblate-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Washed Any Feet Lately"</b></p>
                             <p class="timp-box">November 08, 2020</p>
                             <button class="button button2"><a href="page24.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
+                    <div class="gb-third gb-container gb-margin-bottom">
                         <img src="./assets/challengeacceptedpart3-01.png" alt="Norway" style="width:100%"
-                            class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                            class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Unchallenging Church"</b></p>
                             <p class="timp-box">October 25, 2020</p>
                             <button class="button button2"><a href="page23.html">Read More</a></button>
@@ -142,30 +142,30 @@
             <!-- Page 2 of Timps -->
             <div class="mySlides fade">
                 <!-- <div class="numbertext">1 / 3</div> -->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <h6 style="text-align: center;">Page 2</h6>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/thestruggle-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/thestruggle-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Unchallenging Church"</b></p>
                             <p class="timp-box">October 18, 2020</p>
                             <button class="button button2"><a href="page22.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/UnCA-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/UnCA-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Unchallenging Church"</b></p>
                             <p class="timp-box">October 4, 2020</p>
                             <button class="button button2"><a href="page21.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/finalex-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/finalex-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"The Effective Change of Jesus"</b></p>
                             <p class="timp-box">September 27, 2020</p>
                             <button class="button button2"><a href="page20.html">Read More</a></button>
@@ -175,31 +175,31 @@
                 </div>
 
                 <!-- Second Photo Grid-->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
+                    <div class="gb-third gb-container gb-margin-bottom">
                         <img src="./assets/part3intermission-01.png" alt="Norway" style="width:100%"
-                            class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                            class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"The Effective Change of Jesus"</b></p>
                             <p class="timp-box">September 20, 2020</p>
                             <button class="button button2"><a href="page19.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
+                    <div class="gb-third gb-container gb-margin-bottom">
                         <img src="./assets/lighttunnelphoto-01.png" alt="Norway" style="width:100%"
-                            class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                            class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"The Effective Change of Jesus"</b></p>
                             <p class="timp-box">September 13, 2020</p>
                             <button class="button button2"><a href="page18.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/tunnelpart2-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/tunnelpart2-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"The Effective Change of Jesus"</b></p>
                             <p class="timp-box">August 31, 2020</p>
                             <button class="button button2"><a href="page17.html">Read More</a></button>
@@ -213,30 +213,30 @@
             <!-- Page 3 of Timps -->
             <div class="mySlides fade">
                 <!-- <div class="numbertext">1 / 3</div> -->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <h6 style="text-align: center;">Page 3</h6>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/part1tunnel-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/part1tunnel-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"The Effective Change of Jesus"</b></p>
                             <p class="timp-box">August 23, 2020</p>
                             <button class="button button2"><a href="page16.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/Bird-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/Bird-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Some Things Are Impossible for God!"</b></p>
                             <p class="timp-box">August 2, 2020</p>
                             <button class="button button2"><a href="page15.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/KnowGrowth-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/KnowGrowth-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Knowledge is Growth"</b></p>
                             <p class="timp-box">July 12, 2020</p>
                             <button class="button button2"><a href="page14.html">Read More</a></button>
@@ -246,29 +246,29 @@
                 </div>
 
                 <!-- Second Photo Grid-->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/GNI2-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/GNI2-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"God Not Included"</b></p>
                             <p class="timp-box">June 28, 2020</p>
                             <button class="button button2"><a href="page13.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/sadopps-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/sadopps-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Missed Opportunities"</b></p>
                             <p class="timp-box">June 14, 2020</p>
                             <button class="button button2"><a href="page12.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/hb-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/hb-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Hard To Breathe"</b></p>
                             <p class="timp-box">May 31, 2020</p>
                             <button class="button button2"><a href="page11.html">Read More</a></button>
@@ -282,31 +282,31 @@
             <!-- Page 4 of Timps -->
             <div class="mySlides fade">
                 <!-- <div class="numbertext">1 / 3</div> -->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <h6 style="text-align: center;">Page 4</h6>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
+                    <div class="gb-third gb-container gb-margin-bottom">
                         <img src="./assets/abnormalwaycover-01.jpg" alt="Norway" style="width:100%"
-                            class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                            class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"The Abnormal Normal"</b></p>
                             <p class="timp-box">May 24, 2020</p>
                             <button class="button button2"><a href="page10.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/mom2-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/mom2-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Mother's Day 2020"</b></p>
                             <p class="timp-box">May 10, 2020</p>
                             <button class="button button2"><a href="page9.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/lionpart5-01.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/lionpart5-01.png" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Recognizing the Lion is not King"</b></p>
                             <p class="timp-box">May 3, 2020</p>
                             <button class="button button2"><a href="page8.html">Read More</a></button>
@@ -316,29 +316,29 @@
                 </div>
 
                 <!-- Second Photo Grid-->
-                <div class="w3-row-padding w3-margin-bottom">
+                <div class="gb-row-padding gb-margin-bottom">
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/lion-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/lion-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Recognizing the Lion is not King"</b></p>
                             <p class="timp-box">April 26, 2020</p>
                             <button class="button button2"><a href="page7.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/lion3-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/lion3-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <p class="timp-box"><b>"Recognizing the Lion is not King"</b></p>
                             <p class="timp-box">April 19, 2020</p>
                             <button class="button button2"><a href="page6.html">Read More</a></button>
                         </div>
                     </div>
                     <!-- link section -->
-                    <div class="w3-third gb-container w3-margin-bottom">
-                        <img src="./assets/lionpart2-01.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                        <div class="gb-container w3-white">
+                    <div class="gb-third gb-container gb-margin-bottom">
+                        <img src="./assets/lionpart2-01.jpg" alt="Norway" style="width:100%" class="gb-hover-opacity">
+                        <div class="gb-container gb-white">
                             <div class="timp-box">
                                 <p class="timp-box"><b>"Recognizing the Lion is not King"</b></p>
                                 <p class="timp-box">April 10, 2020</p>
@@ -355,26 +355,26 @@
         <br>
 
         <!-- Pagination -->
-        <div class="w3-center w3-padding-32">
-            <div class="w3-bar">
-                <a class="w3-bar-item w3-button w3-hover-black" onclick="currentSlide(1)">First</a>
-                <a class="w3-bar-item w3-button w3-hover-black" onclick="plusSlides(-1)">«</a>
-                <a class="w3-bar-item w3-button w3-hover-black" onclick="plusSlides(1)">»</a>
-                <a class="w3-bar-item w3-button w3-hover-black" onclick="currentSlide(4)">Last</a>
+        <div class="gb-center gb-padding-32">
+            <div class="gb-bar">
+                <a class="gb-bar-item gb-button gb-hover-black" onclick="currentSlide(1)">First</a>
+                <a class="gb-bar-item gb-button gb-hover-black" onclick="plusSlides(-1)">«</a>
+                <a class="gb-bar-item gb-button gb-hover-black" onclick="plusSlides(1)">»</a>
+                <a class="gb-bar-item gb-button gb-hover-black" onclick="currentSlide(4)">Last</a>
             </div>
         </div>
 
         <!-- Images of Me -->
-        <div class="w3-row-padding w3-padding-16" id="">
-            <div class="w3-col m6">
+        <div class="gb-row-padding gb-padding-16" id="">
+            <div class="gb-col m6">
                 <img src="./assets/boom-01.png" alt="Greg's Comment Corner" style="width:100%">
             </div>
-            <div class="w3-col m6">
+            <div class="gb-col m6">
                 <img src="./assets/connectedtojesus-01.png" alt="Important Bible Verses" style="width:100%">
             </div>
         </div>
 
-        <div class="gb-container w3-padding-large" style="margin-bottom:32px">
+        <div class="gb-container gb-padding-large" style="margin-bottom:32px">
             <h4 id="about"><b>About Me</b></h4>
             <div class="timptext">
                 <p>At 12 years old l stood up from the reddish burgundy pleather cushioned brown metal seat. This
@@ -443,9 +443,9 @@
             <hr>
 
             <!-- Contact -->
-            <div class="gb-container w3-padding-64 w3-grayscale-min w3-xlarge"
+            <div class="gb-container gb-padding-64 gb-grayscale-min gb-xlarge"
                 style="background-color: #85C1E9 !important;">
-                <div class="w3-content">
+                <div class="gb-content">
                     <h1 class="timp-box" id="contact" style="text-align: center;"><b>Contact Me</b></h1>
                     <p class="timp-box" style="font-size: 20px;">Hello TiMP Nation! Below you will find a great way
                         for
@@ -462,31 +462,31 @@
                     </p>
                     <form action="https://formspree.io/timpglb@gmail.com" method="POST">
                         <!-- <form action="mailto:timpglb@gmail.com" method="post" enctype="text/plain"> -->
-                        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required
+                        <p><input class="gb-input gb-padding-16 gb-border" type="text" placeholder="Name" required
                                 name="Name"></p>
-                        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Contact Number"
+                        <p><input class="gb-input gb-padding-16 gb-border" type="number" placeholder="Contact Number"
                                 required name="Phone Number"></p>
-                        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Your Email Address"
+                        <p><input class="gb-input gb-padding-16 gb-border" type="text" placeholder="Your Email Address"
                                 required name="Email Address"></p>
-                        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Thoughts"
+                        <p><input class="gb-input gb-padding-16 gb-border" type="text" placeholder="Message \ Thoughts"
                                 required name="Message"></p>
-                        <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+                        <p><button class="gb-button gb-light-grey gb-block" type="submit">SEND MESSAGE</button></p>
                     </form>
                 </div>
             </div>
 
             <!-- Footer -->
-            <footer class="gb-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-                <a href="#timps" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+            <footer class="gb-center gb-black gb-padding-64 gb-opacity gb-hover-opacity-off">
+                <a href="#timps" class="gb-button gb-light-grey"><i class="fa fa-arrow-up gb-margin-right"></i>To
                     the
                     top</a>
-                <div class="w3-xlarge w3-section">
-                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                    <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
-                    <i class="fa fa-snapchat w3-hover-opacity"></i>
-                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                    <i class="fa fa-twitter w3-hover-opacity"></i>
-                    <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+                <div class="gb-xlarge gb-section">
+                    <i class="fa fa-facebook-official gb-hover-opacity"></i>
+                    <!-- <i class="fa fa-instagram gb-hover-opacity"></i>
+                    <i class="fa fa-snapchat gb-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p gb-hover-opacity"></i>
+                    <i class="fa fa-twitter gb-hover-opacity"></i>
+                    <i class="fa fa-linkedin gb-hover-opacity"></i> -->
                 </div>
                 <p class="copyright">&copy; 2017 TiMP Ministries. All Rights Reserved.
                     <br>
@@ -533,7 +533,7 @@
                 slides[slideIndex - 1].style.display = "block";
             }
             // Script to open and close sidebar
-            function w3_open() {
+            function gb_open() {
                 document.getElementById("mySidebar").style.display = "block";
                 document.getElementById("myOverlay").style.display = "block";
             }
