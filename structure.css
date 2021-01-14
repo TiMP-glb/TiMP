@@ -1,5 +1,5 @@
 /* TiMP Structure Code January 2021 - Greg Burris II*/
-/* html {
+html {
     box-sizing: border-box
 }
 
@@ -213,7 +213,7 @@ textarea {
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
     font: inherit
-} */
+}
 
 /* End extract */
 html {
