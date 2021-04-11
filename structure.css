@@ -324,6 +324,10 @@ p {
     font-weight: bold;
 }
 
+.red-text {
+    color: red;
+}
+
 li {
     font-weight: bold;
 }
