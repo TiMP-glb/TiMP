@@ -14,13 +14,12 @@ body {
 }
 
 h2 {
-    color: #282F35;
     font-family: 'Josefin Sans', Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
     margin: 0;
     text-transform: uppercase;
-    background-color: var(--font-color) !important;
+    color: var(--font-color) !important;
 }
 
 p {
