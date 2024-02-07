@@ -13,13 +13,21 @@ body {
     margin-bottom: 50px;
 }
 
-h2 {
+h1 {
     font-family: 'Josefin Sans', Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
     margin: 0;
     text-transform: uppercase;
     color: var(--font-color) !important;
+}
+
+h2 {
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 p {
